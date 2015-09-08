@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D60DEC431B1B7A14001D0975 /* Code Generation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D60DEC441B1B7A14001D0975 /* Build configuration list for PBXAggregateTarget "Code Generation" */;
+			buildPhases = (
+				D60DEC4D1B1B7AB1001D0975 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Code Generation";
+			productName = "Code Generation";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2F0ABAEE667447C7B888304E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFDDC7B21844D58894AB3FF /* libPods.a */; };
+		C2454F0BE533BEDB4299F37C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFDDC7B21844D58894AB3FF /* libPods.a */; };
+		D6006B2D1B83C5FE00F58193 /* _C360DogCreationSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B281B83C5FE00F58193 /* _C360DogCreationSubmission.m */; };
+		D6006B2E1B83C5FE00F58193 /* _C360DogDeletionSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B2A1B83C5FE00F58193 /* _C360DogDeletionSubmission.m */; };
+		D6006B2F1B83C5FE00F58193 /* _C360DogUpdateSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B2C1B83C5FE00F58193 /* _C360DogUpdateSubmission.m */; };
+		D6006B361B83C60F00F58193 /* C360DogCreationSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B311B83C60F00F58193 /* C360DogCreationSubmission.m */; };
+		D6006B371B83C60F00F58193 /* C360DogDeletionSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B331B83C60F00F58193 /* C360DogDeletionSubmission.m */; };
+		D6006B381B83C60F00F58193 /* C360DogUpdateSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B351B83C60F00F58193 /* C360DogUpdateSubmission.m */; };
+		D6006B3B1B83C78000F58193 /* C360DogWhisperer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B3A1B83C78000F58193 /* C360DogWhisperer.m */; };
+		D6006B3E1B83C94F00F58193 /* _C360PendingSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B3D1B83C94F00F58193 /* _C360PendingSubmission.m */; };
+		D6006B411B83C95D00F58193 /* C360PendingSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = D6006B401B83C95D00F58193 /* C360PendingSubmission.m */; };
+		D60C2F541B1B65C500B40220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C2F531B1B65C500B40220 /* main.m */; };
+		D60C2F571B1B65C500B40220 /* C360AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C2F561B1B65C500B40220 /* C360AppDelegate.m */; };
+		D60C2F621B1B65C500B40220 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60C2F611B1B65C500B40220 /* Images.xcassets */; };
+		D60C2F651B1B65C500B40220 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60C2F631B1B65C500B40220 /* LaunchScreen.xib */; };
+		D60C2F711B1B65C500B40220 /* C360BreedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C2F701B1B65C500B40220 /* C360BreedTests.m */; };
+		D60DEC3E1B1B6B98001D0975 /* C360APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC3D1B1B6B98001D0975 /* C360APIClient.m */; };
+		D60DEC401B1B7071001D0975 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60DEC3F1B1B7071001D0975 /* CoreData.framework */; };
+		D60DEC421B1B71DE001D0975 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60DEC411B1B71DE001D0975 /* SystemConfiguration.framework */; };
+		D60DEC4C1B1B7A3F001D0975 /* Data Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC4A1B1B7A3F001D0975 /* Data Model.xcdatamodeld */; };
+		D60DEC511B1B7CC4001D0975 /* _C360Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC501B1B7CC4001D0975 /* _C360Dog.m */; };
+		D60DEC541B1B7CCF001D0975 /* C360Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC531B1B7CCF001D0975 /* C360Dog.m */; };
+		D60DEC5A1B1B840F001D0975 /* C360DogsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC571B1B840F001D0975 /* C360DogsController.m */; };
+		D60DEC5B1B1B840F001D0975 /* C360DogsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC591B1B840F001D0975 /* C360DogsView.m */; };
+		D60DEC5E1B1C3301001D0975 /* _C360Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC5D1B1C3301001D0975 /* _C360Breed.m */; };
+		D60DEC611B1C330C001D0975 /* C360Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC601B1C330C001D0975 /* C360Breed.m */; };
+		D60DEC681B244A8B001D0975 /* C360BreedsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC651B244A8B001D0975 /* C360BreedsController.m */; };
+		D60DEC691B244A8B001D0975 /* C360BreedsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC671B244A8B001D0975 /* C360BreedsView.m */; };
+		D60DEC761B28B9E7001D0975 /* C360DogController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC731B28B9E7001D0975 /* C360DogController.m */; };
+		D60DEC771B28B9E7001D0975 /* C360DogView.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEC751B28B9E7001D0975 /* C360DogView.m */; };
+		D6641A421B961A0500F0EA11 /* C360BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6641A411B961A0500F0EA11 /* C360BaseView.m */; };
+		D698FCD41B8B568400DE949C /* C360EditDogController.m in Sources */ = {isa = PBXBuildFile; fileRef = D698FCD11B8B568400DE949C /* C360EditDogController.m */; };
+		D698FCD51B8B568400DE949C /* C360EditDogView.m in Sources */ = {isa = PBXBuildFile; fileRef = D698FCD31B8B568400DE949C /* C360EditDogView.m */; };
+		F63582381B8DE77A00D94271 /* breeds.json in Resources */ = {isa = PBXBuildFile; fileRef = F63582361B8DE77A00D94271 /* breeds.json */; };
+		F63582391B8DE77A00D94271 /* dogs.json in Resources */ = {isa = PBXBuildFile; fileRef = F63582371B8DE77A00D94271 /* dogs.json */; };
+		F635823E1B8DE90B00D94271 /* breedsMediumOnly.json in Resources */ = {isa = PBXBuildFile; fileRef = F635823D1B8DE90B00D94271 /* breedsMediumOnly.json */; };
+		F63582411B8DE94700D94271 /* C360APIClient+C360Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63582401B8DE94700D94271 /* C360APIClient+C360Tests.m */; };
+		F63582441B8E371B00D94271 /* C360URLMocker.m in Sources */ = {isa = PBXBuildFile; fileRef = F63582431B8E371B00D94271 /* C360URLMocker.m */; };
+		F6FE35BB1B9B6B81006FD9AD /* C360DogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE35BA1B9B6B81006FD9AD /* C360DogTests.m */; };
+		F6FE35BD1B9B6BBB006FD9AD /* dogsBoxersOnly.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35BC1B9B6BBB006FD9AD /* dogsBoxersOnly.json */; };
+		F6FE35BF1B9B6DDE006FD9AD /* bonnie.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35BE1B9B6DDE006FD9AD /* bonnie.json */; };
+		F6FE35C11B9B6E8C006FD9AD /* poppy.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35C01B9B6E8C006FD9AD /* poppy.json */; };
+		F6FE35C41B9B741C006FD9AD /* dogsEmpty.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35C21B9B741C006FD9AD /* dogsEmpty.json */; };
+		F6FE35C71B9DE6EC006FD9AD /* forbidden.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35C61B9DE6EC006FD9AD /* forbidden.json */; };
+		F6FE35C91B9DEF7C006FD9AD /* dogsSpanielsOnly.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35C81B9DEF7C006FD9AD /* dogsSpanielsOnly.json */; };
+		F6FE35CB1B9DEF8F006FD9AD /* deleted.json in Resources */ = {isa = PBXBuildFile; fileRef = F6FE35CA1B9DEF8F006FD9AD /* deleted.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60C2F6B1B1B65C500B40220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60C2F461B1B65C500B40220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60C2F4D1B1B65C500B40220;
+			remoteInfo = Doggies;
+		};
+		D60DEC471B1B7A26001D0975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60C2F461B1B65C500B40220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60DEC431B1B7A14001D0975;
+			remoteInfo = "Code Generation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DFDDC7B21844D58894AB3FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6649631F3AD0695C3C693DC5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D6006B271B83C5FE00F58193 /* _C360DogCreationSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _C360DogCreationSubmission.h; sourceTree = "<group>"; };
+		D6006B281B83C5FE00F58193 /* _C360DogCreationSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _C360DogCreationSubmission.m; sourceTree = "<group>"; };
+		D6006B291B83C5FE00F58193 /* _C360DogDeletionSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _C360DogDeletionSubmission.h; sourceTree = "<group>"; };
+		D6006B2A1B83C5FE00F58193 /* _C360DogDeletionSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _C360DogDeletionSubmission.m; sourceTree = "<group>"; };
+		D6006B2B1B83C5FE00F58193 /* _C360DogUpdateSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _C360DogUpdateSubmission.h; sourceTree = "<group>"; };
+		D6006B2C1B83C5FE00F58193 /* _C360DogUpdateSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _C360DogUpdateSubmission.m; sourceTree = "<group>"; };
+		D6006B301B83C60F00F58193 /* C360DogCreationSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogCreationSubmission.h; sourceTree = "<group>"; };
+		D6006B311B83C60F00F58193 /* C360DogCreationSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogCreationSubmission.m; sourceTree = "<group>"; };
+		D6006B321B83C60F00F58193 /* C360DogDeletionSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogDeletionSubmission.h; sourceTree = "<group>"; };
+		D6006B331B83C60F00F58193 /* C360DogDeletionSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogDeletionSubmission.m; sourceTree = "<group>"; };
+		D6006B341B83C60F00F58193 /* C360DogUpdateSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogUpdateSubmission.h; sourceTree = "<group>"; };
+		D6006B351B83C60F00F58193 /* C360DogUpdateSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogUpdateSubmission.m; sourceTree = "<group>"; };
+		D6006B391B83C78000F58193 /* C360DogWhisperer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogWhisperer.h; sourceTree = "<group>"; };
+		D6006B3A1B83C78000F58193 /* C360DogWhisperer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogWhisperer.m; sourceTree = "<group>"; };
+		D6006B3C1B83C94F00F58193 /* _C360PendingSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _C360PendingSubmission.h; sourceTree = "<group>"; };
+		D6006B3D1B83C94F00F58193 /* _C360PendingSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _C360PendingSubmission.m; sourceTree = "<group>"; };
+		D6006B3F1B83C95D00F58193 /* C360PendingSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360PendingSubmission.h; sourceTree = "<group>"; };
+		D6006B401B83C95D00F58193 /* C360PendingSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360PendingSubmission.m; sourceTree = "<group>"; };
+		D60C2F4E1B1B65C500B40220 /* Doggies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doggies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60C2F521B1B65C500B40220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60C2F531B1B65C500B40220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60C2F551B1B65C500B40220 /* C360AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C360AppDelegate.h; sourceTree = "<group>"; };
+		D60C2F561B1B65C500B40220 /* C360AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C360AppDelegate.m; sourceTree = "<group>"; };
+		D60C2F611B1B65C500B40220 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D60C2F641B1B65C500B40220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D60C2F6A1B1B65C500B40220 /* DoggiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoggiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60C2F6F1B1B65C500B40220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60C2F701B1B65C500B40220 /* C360BreedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C360BreedTests.m; sourceTree = "<group>"; };
+		D60DEC3C1B1B6B98001D0975 /* C360APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360APIClient.h; sourceTree = "<group>"; };
+		D60DEC3D1B1B6B98001D0975 /* C360APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = C360APIClient.m; sourceTree = "<group>"; };
+		D60DEC3F1B1B7071001D0975 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D60DEC411B1B71DE001D0975 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D60DEC4E1B1B7C99001D0975 /* Doggies-1.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Doggies-1.0.xcdatamodel"; sourceTree = "<group>"; };
+		D60DEC4F1B1B7CC4001D0975 /* _C360Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _C360Dog.h; sourceTree = "<group>"; };
+		D60DEC501B1B7CC4001D0975 /* _C360Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _C360Dog.m; sourceTree = "<group>"; };
+		D60DEC521B1B7CCF001D0975 /* C360Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360Dog.h; sourceTree = "<group>"; };
+		D60DEC531B1B7CCF001D0975 /* C360Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360Dog.m; sourceTree = "<group>"; };
+		D60DEC561B1B840F001D0975 /* C360DogsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogsController.h; sourceTree = "<group>"; };
+		D60DEC571B1B840F001D0975 /* C360DogsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogsController.m; sourceTree = "<group>"; };
+		D60DEC581B1B840F001D0975 /* C360DogsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogsView.h; sourceTree = "<group>"; };
+		D60DEC591B1B840F001D0975 /* C360DogsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogsView.m; sourceTree = "<group>"; };
+		D60DEC5C1B1C3301001D0975 /* _C360Breed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _C360Breed.h; sourceTree = "<group>"; };
+		D60DEC5D1B1C3301001D0975 /* _C360Breed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _C360Breed.m; sourceTree = "<group>"; };
+		D60DEC5F1B1C330C001D0975 /* C360Breed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360Breed.h; sourceTree = "<group>"; };
+		D60DEC601B1C330C001D0975 /* C360Breed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360Breed.m; sourceTree = "<group>"; };
+		D60DEC641B244A8B001D0975 /* C360BreedsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360BreedsController.h; sourceTree = "<group>"; };
+		D60DEC651B244A8B001D0975 /* C360BreedsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360BreedsController.m; sourceTree = "<group>"; };
+		D60DEC661B244A8B001D0975 /* C360BreedsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360BreedsView.h; sourceTree = "<group>"; };
+		D60DEC671B244A8B001D0975 /* C360BreedsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360BreedsView.m; sourceTree = "<group>"; };
+		D60DEC721B28B9E7001D0975 /* C360DogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogController.h; sourceTree = "<group>"; };
+		D60DEC731B28B9E7001D0975 /* C360DogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogController.m; sourceTree = "<group>"; };
+		D60DEC741B28B9E7001D0975 /* C360DogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360DogView.h; sourceTree = "<group>"; };
+		D60DEC751B28B9E7001D0975 /* C360DogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogView.m; sourceTree = "<group>"; };
+		D6641A401B961A0500F0EA11 /* C360BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360BaseView.h; sourceTree = "<group>"; };
+		D6641A411B961A0500F0EA11 /* C360BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360BaseView.m; sourceTree = "<group>"; };
+		D698FCD01B8B568400DE949C /* C360EditDogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360EditDogController.h; sourceTree = "<group>"; };
+		D698FCD11B8B568400DE949C /* C360EditDogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360EditDogController.m; sourceTree = "<group>"; };
+		D698FCD21B8B568400DE949C /* C360EditDogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360EditDogView.h; sourceTree = "<group>"; };
+		D698FCD31B8B568400DE949C /* C360EditDogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360EditDogView.m; sourceTree = "<group>"; };
+		E467EEE7AE13332612BA0393 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F63582361B8DE77A00D94271 /* breeds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds.json; sourceTree = "<group>"; };
+		F63582371B8DE77A00D94271 /* dogs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogs.json; sourceTree = "<group>"; };
+		F635823D1B8DE90B00D94271 /* breedsMediumOnly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breedsMediumOnly.json; sourceTree = "<group>"; };
+		F635823F1B8DE94700D94271 /* C360APIClient+C360Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "C360APIClient+C360Tests.h"; sourceTree = "<group>"; };
+		F63582401B8DE94700D94271 /* C360APIClient+C360Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "C360APIClient+C360Tests.m"; sourceTree = "<group>"; };
+		F63582421B8E371B00D94271 /* C360URLMocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360URLMocker.h; sourceTree = "<group>"; };
+		F63582431B8E371B00D94271 /* C360URLMocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360URLMocker.m; sourceTree = "<group>"; };
+		F6FE35BA1B9B6B81006FD9AD /* C360DogTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360DogTests.m; sourceTree = "<group>"; };
+		F6FE35BC1B9B6BBB006FD9AD /* dogsBoxersOnly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogsBoxersOnly.json; sourceTree = "<group>"; };
+		F6FE35BE1B9B6DDE006FD9AD /* bonnie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bonnie.json; sourceTree = "<group>"; };
+		F6FE35C01B9B6E8C006FD9AD /* poppy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poppy.json; sourceTree = "<group>"; };
+		F6FE35C21B9B741C006FD9AD /* dogsEmpty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogsEmpty.json; sourceTree = "<group>"; };
+		F6FE35C61B9DE6EC006FD9AD /* forbidden.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forbidden.json; sourceTree = "<group>"; };
+		F6FE35C81B9DEF7C006FD9AD /* dogsSpanielsOnly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogsSpanielsOnly.json; sourceTree = "<group>"; };
+		F6FE35CA1B9DEF8F006FD9AD /* deleted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deleted.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60C2F4B1B1B65C500B40220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60DEC421B1B71DE001D0975 /* SystemConfiguration.framework in Frameworks */,
+				D60DEC401B1B7071001D0975 /* CoreData.framework in Frameworks */,
+				2F0ABAEE667447C7B888304E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60C2F671B1B65C500B40220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2454F0BE533BEDB4299F37C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EB5B613B13295D3D652BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6649631F3AD0695C3C693DC5 /* Pods.debug.xcconfig */,
+				E467EEE7AE13332612BA0393 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EB5916B2F354B7196E99F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC411B1B71DE001D0975 /* SystemConfiguration.framework */,
+				D60DEC3F1B1B7071001D0975 /* CoreData.framework */,
+				3DFDDC7B21844D58894AB3FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60C2F451B1B65C500B40220 = {
+			isa = PBXGroup;
+			children = (
+				D60C2F501B1B65C500B40220 /* Doggies */,
+				D60C2F6D1B1B65C500B40220 /* DoggiesTests */,
+				D60C2F4F1B1B65C500B40220 /* Products */,
+				5EB5916B2F354B7196E99F9E /* Frameworks */,
+				52EB5B613B13295D3D652BE3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D60C2F4F1B1B65C500B40220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60C2F4E1B1B65C500B40220 /* Doggies.app */,
+				D60C2F6A1B1B65C500B40220 /* DoggiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60C2F501B1B65C500B40220 /* Doggies */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC3A1B1B6A1F001D0975 /* API Client */,
+				D60DEC3B1B1B6A1F001D0975 /* Data Model */,
+				D60C2F7A1B1B667E00B40220 /* Screens */,
+				D60C2F551B1B65C500B40220 /* C360AppDelegate.h */,
+				D60C2F561B1B65C500B40220 /* C360AppDelegate.m */,
+				D60C2F611B1B65C500B40220 /* Images.xcassets */,
+				D60C2F631B1B65C500B40220 /* LaunchScreen.xib */,
+				D60C2F511B1B65C500B40220 /* Supporting Files */,
+			);
+			path = Doggies;
+			sourceTree = "<group>";
+		};
+		D60C2F511B1B65C500B40220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60C2F521B1B65C500B40220 /* Info.plist */,
+				D60C2F531B1B65C500B40220 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D60C2F6D1B1B65C500B40220 /* DoggiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63582421B8E371B00D94271 /* C360URLMocker.h */,
+				F63582431B8E371B00D94271 /* C360URLMocker.m */,
+				F635823F1B8DE94700D94271 /* C360APIClient+C360Tests.h */,
+				F63582401B8DE94700D94271 /* C360APIClient+C360Tests.m */,
+				D60C2F701B1B65C500B40220 /* C360BreedTests.m */,
+				F6FE35BA1B9B6B81006FD9AD /* C360DogTests.m */,
+				F63582351B8DE77A00D94271 /* Fixtures */,
+				D60C2F6E1B1B65C500B40220 /* Supporting Files */,
+			);
+			path = DoggiesTests;
+			sourceTree = "<group>";
+		};
+		D60C2F6E1B1B65C500B40220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60C2F6F1B1B65C500B40220 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D60C2F7A1B1B667E00B40220 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D6641A401B961A0500F0EA11 /* C360BaseView.h */,
+				D6641A411B961A0500F0EA11 /* C360BaseView.m */,
+				D60DEC631B244A8B001D0975 /* Breeds */,
+				D60DEC711B28B9E7001D0975 /* Dog */,
+				D60DEC551B1B840F001D0975 /* Dogs */,
+				D698FCCF1B8B568400DE949C /* Dog Editing */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D60DEC3A1B1B6A1F001D0975 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC3C1B1B6B98001D0975 /* C360APIClient.h */,
+				D60DEC3D1B1B6B98001D0975 /* C360APIClient.m */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		D60DEC3B1B1B6A1F001D0975 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC4A1B1B7A3F001D0975 /* Data Model.xcdatamodeld */,
+				D60DEC491B1B7A32001D0975 /* mogenerator */,
+				D60DEC5F1B1C330C001D0975 /* C360Breed.h */,
+				D60DEC601B1C330C001D0975 /* C360Breed.m */,
+				D60DEC521B1B7CCF001D0975 /* C360Dog.h */,
+				D60DEC531B1B7CCF001D0975 /* C360Dog.m */,
+				D6006B301B83C60F00F58193 /* C360DogCreationSubmission.h */,
+				D6006B311B83C60F00F58193 /* C360DogCreationSubmission.m */,
+				D6006B321B83C60F00F58193 /* C360DogDeletionSubmission.h */,
+				D6006B331B83C60F00F58193 /* C360DogDeletionSubmission.m */,
+				D6006B341B83C60F00F58193 /* C360DogUpdateSubmission.h */,
+				D6006B351B83C60F00F58193 /* C360DogUpdateSubmission.m */,
+				D6006B391B83C78000F58193 /* C360DogWhisperer.h */,
+				D6006B3A1B83C78000F58193 /* C360DogWhisperer.m */,
+				D6006B3F1B83C95D00F58193 /* C360PendingSubmission.h */,
+				D6006B401B83C95D00F58193 /* C360PendingSubmission.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		D60DEC491B1B7A32001D0975 /* mogenerator */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC5C1B1C3301001D0975 /* _C360Breed.h */,
+				D60DEC5D1B1C3301001D0975 /* _C360Breed.m */,
+				D60DEC4F1B1B7CC4001D0975 /* _C360Dog.h */,
+				D60DEC501B1B7CC4001D0975 /* _C360Dog.m */,
+				D6006B271B83C5FE00F58193 /* _C360DogCreationSubmission.h */,
+				D6006B281B83C5FE00F58193 /* _C360DogCreationSubmission.m */,
+				D6006B291B83C5FE00F58193 /* _C360DogDeletionSubmission.h */,
+				D6006B2A1B83C5FE00F58193 /* _C360DogDeletionSubmission.m */,
+				D6006B2B1B83C5FE00F58193 /* _C360DogUpdateSubmission.h */,
+				D6006B2C1B83C5FE00F58193 /* _C360DogUpdateSubmission.m */,
+				D6006B3C1B83C94F00F58193 /* _C360PendingSubmission.h */,
+				D6006B3D1B83C94F00F58193 /* _C360PendingSubmission.m */,
+			);
+			path = mogenerator;
+			sourceTree = "<group>";
+		};
+		D60DEC551B1B840F001D0975 /* Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC561B1B840F001D0975 /* C360DogsController.h */,
+				D60DEC571B1B840F001D0975 /* C360DogsController.m */,
+				D60DEC581B1B840F001D0975 /* C360DogsView.h */,
+				D60DEC591B1B840F001D0975 /* C360DogsView.m */,
+			);
+			path = Dogs;
+			sourceTree = "<group>";
+		};
+		D60DEC631B244A8B001D0975 /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC641B244A8B001D0975 /* C360BreedsController.h */,
+				D60DEC651B244A8B001D0975 /* C360BreedsController.m */,
+				D60DEC661B244A8B001D0975 /* C360BreedsView.h */,
+				D60DEC671B244A8B001D0975 /* C360BreedsView.m */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		D60DEC711B28B9E7001D0975 /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEC721B28B9E7001D0975 /* C360DogController.h */,
+				D60DEC731B28B9E7001D0975 /* C360DogController.m */,
+				D60DEC741B28B9E7001D0975 /* C360DogView.h */,
+				D60DEC751B28B9E7001D0975 /* C360DogView.m */,
+			);
+			path = Dog;
+			sourceTree = "<group>";
+		};
+		D698FCCF1B8B568400DE949C /* Dog Editing */ = {
+			isa = PBXGroup;
+			children = (
+				D698FCD01B8B568400DE949C /* C360EditDogController.h */,
+				D698FCD11B8B568400DE949C /* C360EditDogController.m */,
+				D698FCD21B8B568400DE949C /* C360EditDogView.h */,
+				D698FCD31B8B568400DE949C /* C360EditDogView.m */,
+			);
+			path = "Dog Editing";
+			sourceTree = "<group>";
+		};
+		F63582351B8DE77A00D94271 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE35BE1B9B6DDE006FD9AD /* bonnie.json */,
+				F63582361B8DE77A00D94271 /* breeds.json */,
+				F635823D1B8DE90B00D94271 /* breedsMediumOnly.json */,
+				F6FE35CA1B9DEF8F006FD9AD /* deleted.json */,
+				F63582371B8DE77A00D94271 /* dogs.json */,
+				F6FE35BC1B9B6BBB006FD9AD /* dogsBoxersOnly.json */,
+				F6FE35C21B9B741C006FD9AD /* dogsEmpty.json */,
+				F6FE35C81B9DEF7C006FD9AD /* dogsSpanielsOnly.json */,
+				F6FE35C61B9DE6EC006FD9AD /* forbidden.json */,
+				F6FE35C01B9B6E8C006FD9AD /* poppy.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60C2F4D1B1B65C500B40220 /* Doggies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60C2F741B1B65C500B40220 /* Build configuration list for PBXNativeTarget "Doggies" */;
+			buildPhases = (
+				1487E97EFC634815879D5FB2 /* Check Pods Manifest.lock */,
+				D60C2F4A1B1B65C500B40220 /* Sources */,
+				D60C2F4B1B1B65C500B40220 /* Frameworks */,
+				D60C2F4C1B1B65C500B40220 /* Resources */,
+				04C6B287248F49FA87216753 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60DEC481B1B7A26001D0975 /* PBXTargetDependency */,
+			);
+			name = Doggies;
+			productName = Doggies;
+			productReference = D60C2F4E1B1B65C500B40220 /* Doggies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60C2F691B1B65C500B40220 /* DoggiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60C2F771B1B65C500B40220 /* Build configuration list for PBXNativeTarget "DoggiesTests" */;
+			buildPhases = (
+				4F9659DDA7CE229E59854470 /* Check Pods Manifest.lock */,
+				D60C2F661B1B65C500B40220 /* Sources */,
+				D60C2F671B1B65C500B40220 /* Frameworks */,
+				D60C2F681B1B65C500B40220 /* Resources */,
+				806EB8EB5B8F2797A22AA16B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60C2F6C1B1B65C500B40220 /* PBXTargetDependency */,
+			);
+			name = DoggiesTests;
+			productName = DoggiesTests;
+			productReference = D60C2F6A1B1B65C500B40220 /* DoggiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60C2F461B1B65C500B40220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C360;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = agbooth.com;
+				TargetAttributes = {
+					D60C2F4D1B1B65C500B40220 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D60C2F691B1B65C500B40220 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D60C2F4D1B1B65C500B40220;
+					};
+					D60DEC431B1B7A14001D0975 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D60C2F491B1B65C500B40220 /* Build configuration list for PBXProject "Doggies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60C2F451B1B65C500B40220;
+			productRefGroup = D60C2F4F1B1B65C500B40220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60C2F4D1B1B65C500B40220 /* Doggies */,
+				D60C2F691B1B65C500B40220 /* DoggiesTests */,
+				D60DEC431B1B7A14001D0975 /* Code Generation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60C2F4C1B1B65C500B40220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60C2F651B1B65C500B40220 /* LaunchScreen.xib in Resources */,
+				D60C2F621B1B65C500B40220 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60C2F681B1B65C500B40220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635823E1B8DE90B00D94271 /* breedsMediumOnly.json in Resources */,
+				F6FE35C71B9DE6EC006FD9AD /* forbidden.json in Resources */,
+				F6FE35BD1B9B6BBB006FD9AD /* dogsBoxersOnly.json in Resources */,
+				F63582391B8DE77A00D94271 /* dogs.json in Resources */,
+				F6FE35BF1B9B6DDE006FD9AD /* bonnie.json in Resources */,
+				F6FE35C41B9B741C006FD9AD /* dogsEmpty.json in Resources */,
+				F6FE35C11B9B6E8C006FD9AD /* poppy.json in Resources */,
+				F63582381B8DE77A00D94271 /* breeds.json in Resources */,
+				F6FE35CB1B9DEF8F006FD9AD /* deleted.json in Resources */,
+				F6FE35C91B9DEF7C006FD9AD /* dogsSpanielsOnly.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C6B287248F49FA87216753 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1487E97EFC634815879D5FB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9659DDA7CE229E59854470 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		806EB8EB5B8F2797A22AA16B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60DEC4D1B1B7AB1001D0975 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DATA_DIR=\"Doggies/Data Model\"\n/usr/local/bin/mogenerator -m \"${DATA_DIR}/Data Model.xcdatamodeld\" -M \"${DATA_DIR}/mogenerator\" -H \"${DATA_DIR}\" --template-var arc=true\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60C2F4A1B1B65C500B40220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60DEC4C1B1B7A3F001D0975 /* Data Model.xcdatamodeld in Sources */,
+				D60DEC3E1B1B6B98001D0975 /* C360APIClient.m in Sources */,
+				D60DEC5A1B1B840F001D0975 /* C360DogsController.m in Sources */,
+				D60DEC541B1B7CCF001D0975 /* C360Dog.m in Sources */,
+				D60DEC5E1B1C3301001D0975 /* _C360Breed.m in Sources */,
+				D60C2F571B1B65C500B40220 /* C360AppDelegate.m in Sources */,
+				D60DEC5B1B1B840F001D0975 /* C360DogsView.m in Sources */,
+				D60DEC681B244A8B001D0975 /* C360BreedsController.m in Sources */,
+				D6641A421B961A0500F0EA11 /* C360BaseView.m in Sources */,
+				D6006B2D1B83C5FE00F58193 /* _C360DogCreationSubmission.m in Sources */,
+				D60DEC771B28B9E7001D0975 /* C360DogView.m in Sources */,
+				D698FCD51B8B568400DE949C /* C360EditDogView.m in Sources */,
+				D60C2F541B1B65C500B40220 /* main.m in Sources */,
+				D60DEC761B28B9E7001D0975 /* C360DogController.m in Sources */,
+				D60DEC611B1C330C001D0975 /* C360Breed.m in Sources */,
+				D6006B2F1B83C5FE00F58193 /* _C360DogUpdateSubmission.m in Sources */,
+				D60DEC511B1B7CC4001D0975 /* _C360Dog.m in Sources */,
+				D6006B361B83C60F00F58193 /* C360DogCreationSubmission.m in Sources */,
+				D6006B3B1B83C78000F58193 /* C360DogWhisperer.m in Sources */,
+				D6006B2E1B83C5FE00F58193 /* _C360DogDeletionSubmission.m in Sources */,
+				D698FCD41B8B568400DE949C /* C360EditDogController.m in Sources */,
+				D60DEC691B244A8B001D0975 /* C360BreedsView.m in Sources */,
+				D6006B411B83C95D00F58193 /* C360PendingSubmission.m in Sources */,
+				D6006B371B83C60F00F58193 /* C360DogDeletionSubmission.m in Sources */,
+				D6006B381B83C60F00F58193 /* C360DogUpdateSubmission.m in Sources */,
+				D6006B3E1B83C94F00F58193 /* _C360PendingSubmission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60C2F661B1B65C500B40220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63582411B8DE94700D94271 /* C360APIClient+C360Tests.m in Sources */,
+				F63582441B8E371B00D94271 /* C360URLMocker.m in Sources */,
+				F6FE35BB1B9B6B81006FD9AD /* C360DogTests.m in Sources */,
+				D60C2F711B1B65C500B40220 /* C360BreedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60C2F6C1B1B65C500B40220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60C2F4D1B1B65C500B40220 /* Doggies */;
+			targetProxy = D60C2F6B1B1B65C500B40220 /* PBXContainerItemProxy */;
+		};
+		D60DEC481B1B7A26001D0975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60DEC431B1B7A14001D0975 /* Code Generation */;
+			targetProxy = D60DEC471B1B7A26001D0975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D60C2F631B1B65C500B40220 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60C2F641B1B65C500B40220 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60C2F721B1B65C500B40220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D60C2F731B1B65C500B40220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60C2F751B1B65C500B40220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6649631F3AD0695C3C693DC5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Doggies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D60C2F761B1B65C500B40220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E467EEE7AE13332612BA0393 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Doggies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D60C2F781B1B65C500B40220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6649631F3AD0695C3C693DC5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoggiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doggies.app/Doggies";
+			};
+			name = Debug;
+		};
+		D60C2F791B1B65C500B40220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E467EEE7AE13332612BA0393 /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoggiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doggies.app/Doggies";
+			};
+			name = Release;
+		};
+		D60DEC451B1B7A14001D0975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D60DEC461B1B7A14001D0975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60C2F491B1B65C500B40220 /* Build configuration list for PBXProject "Doggies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60C2F721B1B65C500B40220 /* Debug */,
+				D60C2F731B1B65C500B40220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60C2F741B1B65C500B40220 /* Build configuration list for PBXNativeTarget "Doggies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60C2F751B1B65C500B40220 /* Debug */,
+				D60C2F761B1B65C500B40220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60C2F771B1B65C500B40220 /* Build configuration list for PBXNativeTarget "DoggiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60C2F781B1B65C500B40220 /* Debug */,
+				D60C2F791B1B65C500B40220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60DEC441B1B7A14001D0975 /* Build configuration list for PBXAggregateTarget "Code Generation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60DEC451B1B7A14001D0975 /* Debug */,
+				D60DEC461B1B7A14001D0975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D60DEC4A1B1B7A3F001D0975 /* Data Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D60DEC4E1B1B7C99001D0975 /* Doggies-1.0.xcdatamodel */,
+			);
+			currentVersion = D60DEC4E1B1B7C99001D0975 /* Doggies-1.0.xcdatamodel */;
+			path = "Data Model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D60C2F461B1B65C500B40220 /* Project object */;
+}

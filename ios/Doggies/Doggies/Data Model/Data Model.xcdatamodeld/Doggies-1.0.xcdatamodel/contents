@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Breed" representedClassName="C360Breed" syncable="YES">
+        <attribute name="breedId" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="isFullObject" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dogs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Dog" inverseName="breed" inverseEntity="Dog" syncable="YES"/>
+    </entity>
+    <entity name="Dog" representedClassName="C360Dog" syncable="YES">
+        <attribute name="breedId" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="breedName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dogId" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="isFullObject" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfBottomsSniffed" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfCatsChased" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfFacesLicked" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="breed" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Breed" inverseName="dogs" inverseEntity="Breed" syncable="YES"/>
+        <relationship name="pendingCreationSubmission" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DogCreationSubmission" inverseName="dog" inverseEntity="DogCreationSubmission" syncable="YES"/>
+        <relationship name="pendingDeletionSubmission" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DogDeletionSubmission" inverseName="dog" inverseEntity="DogDeletionSubmission" syncable="YES"/>
+        <relationship name="pendingUpdateSubmission" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DogUpdateSubmission" inverseName="dog" inverseEntity="DogUpdateSubmission" syncable="YES"/>
+    </entity>
+    <entity name="DogCreationSubmission" representedClassName="C360DogCreationSubmission" parentEntity="PendingSubmission" syncable="YES">
+        <relationship name="dog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dog" inverseName="pendingCreationSubmission" inverseEntity="Dog" syncable="YES"/>
+    </entity>
+    <entity name="DogDeletionSubmission" representedClassName="C360DogDeletionSubmission" parentEntity="PendingSubmission" syncable="YES">
+        <relationship name="dog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dog" inverseName="pendingDeletionSubmission" inverseEntity="Dog" syncable="YES"/>
+    </entity>
+    <entity name="DogUpdateSubmission" representedClassName="C360DogUpdateSubmission" parentEntity="PendingSubmission" syncable="YES">
+        <attribute name="breedId" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="breedName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfBottomsSniffed" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfCatsChased" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfFacesLicked" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="dog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dog" inverseName="pendingUpdateSubmission" inverseEntity="Dog" syncable="YES"/>
+    </entity>
+    <entity name="PendingSubmission" representedClassName="C360PendingSubmission" isAbstract="YES" syncable="YES">
+        <attribute name="createdAtTimestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="isUnrecoverable" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastSubmissionLocalizedDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastSubmissionTimestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="numberOfErrors" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Breed" positionX="9" positionY="36" width="128" height="120"/>
+        <element name="Dog" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="DogCreationSubmission" positionX="18" positionY="81" width="128" height="60"/>
+        <element name="DogDeletionSubmission" positionX="45" positionY="99" width="128" height="60"/>
+        <element name="DogUpdateSubmission" positionX="27" positionY="90" width="128" height="150"/>
+        <element name="PendingSubmission" positionX="9" positionY="72" width="128" height="120"/>
+    </elements>
+</model>

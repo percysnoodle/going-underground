@@ -1,0 +1,106 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+bonnie:
+  name: "Bonnie"
+  breed: boxer
+  faces_licked: 12
+  cats_chased: 15
+  bottoms_sniffed: 23
+
+poppy:
+  name: "Poppy"
+  breed: boxer
+  faces_licked: 25
+  cats_chased: 29
+  bottoms_sniffed: 28
+  
+sasha:
+  name: "Sasha"
+  breed: husky
+  faces_licked: 11
+  cats_chased: 24
+  bottoms_sniffed: 21
+
+pepper:
+  name: "Pepper"
+  breed: parson_russell
+  faces_licked: 11
+  cats_chased: 14
+  bottoms_sniffed: 28
+
+aubrey:
+  name: "Aubrey"
+  breed: field_spaniel
+  faces_licked: 14
+  cats_chased: 12
+  bottoms_sniffed: 26
+
+blake:
+  name: "Blake"
+  breed: field_spaniel
+  faces_licked: 21
+  cats_chased: 20
+  bottoms_sniffed: 23
+
+phoebe:
+  name: "Phoebe"
+  breed: springer_spaniel
+  faces_licked: 15
+  cats_chased: 13
+  bottoms_sniffed: 28
+
+tia:
+  name: "Tia"
+  breed: springer_spaniel
+  faces_licked: 27
+  cats_chased: 18
+  bottoms_sniffed: 27
+
+maisie:
+  name: "Maisie"
+  breed: welsh_terrier
+  faces_licked: 23
+  cats_chased: 15
+  bottoms_sniffed: 22
+
+kenzie:
+  name: "Kenzie"
+  breed: st_bernard
+  faces_licked: 14
+  cats_chased: 24
+  bottoms_sniffed: 19
+
+tetley:
+  name: "Tetley"
+  breed: boxer
+  faces_licked: 29
+  cats_chased: 20
+  bottoms_sniffed: 14
+
+yogi:
+  name: "Yogi"
+  breed: boxer
+  faces_licked: 22
+  cats_chased: 27
+  bottoms_sniffed: 11
+
+mr_d:
+  name: "Mr. D"
+  breed: boxer
+  faces_licked: 10
+  cats_chased: 26
+  bottoms_sniffed: 22
+
+max:
+  name: "Max"
+  breed: collie
+  faces_licked: 16
+  cats_chased: 5
+  bottoms_sniffed: 31
+
+ollie:
+  name: "Ollie"
+  breed: collie
+  faces_licked: 15
+  cats_chased: 25
+  bottoms_sniffed: 11

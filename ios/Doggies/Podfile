@@ -1,0 +1,6 @@
+platform :ios, 8.0
+
+pod 'RestKit', '~> 0.25'
+pod 'MBProgressHUD'
+
+link_with :Doggies, :DoggiesTests

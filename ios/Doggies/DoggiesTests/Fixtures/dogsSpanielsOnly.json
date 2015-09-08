@@ -1,0 +1,28 @@
+{
+  "dogs": [
+    {
+      "breed_id": 29991261,
+      "id": 877774641,
+      "name": "Aubrey",
+      "breed_name": "Field Spaniel"
+    },
+    {
+      "breed_id": 29991261,
+      "id": 652483881,
+      "name": "Blake",
+      "breed_name": "Field Spaniel"
+    },
+    {
+      "breed_id": 834573163,
+      "id": 350806659,
+      "name": "Phoebe",
+      "breed_name": "Springer Spaniel"
+    },
+    {
+      "breed_id": 834573163,
+      "id": 573806782,
+      "name": "Tia",
+      "breed_name": "Springer Spaniel"
+    }
+  ]
+}

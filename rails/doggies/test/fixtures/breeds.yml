@@ -1,0 +1,76 @@
+
+boxer:
+  name: "Boxer"
+  size: "Medium"
+
+husky:
+  name: "Husky"
+  size: "Large"
+
+st_bernard:
+  name: "St. Bernard"
+  size: "Large"
+
+field_spaniel:
+  name: "Field Spaniel"
+  size: "Medium"
+
+springer_spaniel:
+  name: "Springer Spaniel"
+  size: "Medium"
+
+parson_russell:
+  name: "Parson Russell Terrier"
+  size: "Small"
+
+collie:
+  name: "Border Collie"
+  size: "Medium"
+
+welsh_terrier:
+  name: "Welsh Terrier"
+  size: "Small"
+
+shiba_inu:
+  name: "Shiba Inu"
+  size: "Medium"
+
+leonberger:
+  name: "Leonberger"
+  size: "Very Large"
+
+bulldog:
+  name: "Bulldog"
+  size: "Medium"
+
+poodle:
+  name: "Poodle"
+  size: "Medium"
+
+corgi:
+  name: "Corgi"
+  size: "Small"
+
+golden_retriever:
+  name: "Golden Retriever"
+  size: "Medium"
+
+labrador:
+  name: "Labrador"
+  size: "Large"
+
+dachshund:
+  name: "Dachshund"
+  size: "Medium"
+
+great_dane:
+  name: "Great Dane"
+  size: "Large"
+
+rhodesian_ridgeback:
+  name: "Rhodesian Ridgeback"
+  size: "Large"
+
+whippet:
+  name: "Whippet"
+  size: "Medium"

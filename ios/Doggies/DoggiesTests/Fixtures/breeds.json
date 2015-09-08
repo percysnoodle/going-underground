@@ -1,0 +1,44 @@
+{
+  "breeds": [
+    {
+      "id": 488243983,
+      "name": "Border Collie",
+      "size": "Medium"
+    },
+    {
+      "id": 989233793,
+      "name": "Boxer",
+      "size": "Medium"
+    },
+    {
+      "id": 29991261,
+      "name": "Field Spaniel",
+      "size": "Medium"
+    },
+    {
+      "id": 182859461,
+      "name": "Husky",
+      "size": "Large"
+    },
+    {
+      "id": 552015183,
+      "name": "Kerry Blue Terrier",
+      "size": "Small"
+    },
+    {
+      "id": 469487216,
+      "name": "Parson Russell Terrier",
+      "size": "Small"
+    },
+    {
+      "id": 834573163,
+      "name": "Springer Spaniel",
+      "size": "Medium"
+    },
+    {
+      "id": 495307465,
+      "name": "St. Bernard",
+      "size": "Large"
+    }
+  ]
+}

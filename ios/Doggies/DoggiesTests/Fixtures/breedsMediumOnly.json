@@ -1,0 +1,24 @@
+{
+  "breeds": [
+    {
+      "id": 488243983,
+      "name": "Border Collie",
+      "size": "Medium"
+    },
+    {
+      "id": 989233793,
+      "name": "Boxer",
+      "size": "Medium"
+    },
+    {
+      "id": 29991261,
+      "name": "Field Spaniel",
+      "size": "Medium"
+    },
+    {
+      "id": 834573163,
+      "name": "Springer Spaniel",
+      "size": "Medium"
+    }
+  ]
+}
